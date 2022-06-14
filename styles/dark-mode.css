@@ -1,0 +1,21 @@
+.body.dark {
+    background: #1F2937;
+    color: #FFFFFF;
+}
+
+.toggler--slider.dark {
+    justify-content: flex-end;
+    background: #F5F5F5;
+}
+
+.toggler--slider--circle.dark {
+    background: #1c1c1c;
+}
+
+.toggler--:first-child.dark {
+    color: #918E9B;
+}
+
+.toggler--:last-child.dark {
+    color: #FFFFFF;
+}
