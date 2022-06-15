@@ -3,14 +3,13 @@
 body {
     font-family: 'Karla', sans-serif;
     background: #1C1C1C;
-    padding: 5rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 4.5rem;
+    padding: 2.75rem;
     background: #ECFDF5;
     max-width: 500px;
 }
