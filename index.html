@@ -25,6 +25,28 @@
             <h1>Generate a <span>random password</span></h1>
             <h3>Never use an insecure password again.</h3>
 
+            <form>
+                <label for="p-length">Password length: <span>12</span></label><br/>
+                <input type="range" max="16" min="8" default="12" id="p-length"/>
+            </form>
+
+            <div class="check">
+                <div class="grid-content">
+                    <label for="symbols">Include symbols</label>
+                    <div class="grid-toggler">
+                        <input type="checkbox" id="symbols">
+                        <label for="symbols" class="slider"></label>
+                    </div>
+                </div>
+                <div class="grid-content">
+                    <label for="numbers">Include numbers</label>
+                    <div class="grid-toggler">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers" class="slider"></label>
+                    </div>
+                </div>
+            </div>
+
             <button class="btn-generate">Generate passwords</button>
         </section>
         <hr>

@@ -4,7 +4,6 @@ body {
     font-family: 'Karla', sans-serif;
     background: #1C1C1C;
     padding: 5rem;
-    overflow: hidden;
 }
 
 main {
@@ -13,6 +12,7 @@ main {
     margin: 0 auto;
     padding: 4.5rem;
     background: #ECFDF5;
+    max-width: 500px;
 }
 
 .body h1 {
@@ -49,10 +49,10 @@ hr {
     align-items: center;
 }
 
-.toggler--slider {
+.toggler--slider, .slider {
     display: flex;
     background: #1C1C1C;
-    width: 5rem;
+    width: 4rem;
     height: 1.35rem;
     margin-inline: 7px;
     border-radius: 12.5px;
@@ -61,7 +61,7 @@ hr {
     cursor: pointer;
 }
 
-.toggler--slider--circle {
+.toggler--slider--circle, .slider::before {
     background: #FFFFFF;
     width: 20px;
     height: 20px;
@@ -69,6 +69,72 @@ hr {
     margin: 1.25px;
 }
 
+.grid-toggler {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+}
+
+.grid-toggler input {
+    display: none;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width:500px;
+}
+
+.slider {
+    position: relative;
+    top: 5px;
+    align-items: center;
+    background: #ccc;
+}
+
+.slider::before {
+    content: "";
+    background-color: #c4c3c38c;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+input:checked + .slider {
+    justify-content: flex-end;
+    background: #0daa76;
+}
+
+input[type=range] {
+    margin-bottom: 40px;
+    width: 75%;
+    appearance: none;
+    background: #ccc;
+    height: 20px;
+    border-radius: 12.5px;
+    background-image: linear-gradient(#0daa76, #0daa76);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+ 
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #0daa76;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
+  
 .btn-generate {
     font-family: 'Inter', sans-serif;
     padding: 1rem;
