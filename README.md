@@ -3,12 +3,12 @@ A simple password generator web application created with HTML, CSS, and JavaScri
 
 ![image](https://github.com/Haru-hue/password-generator/assets/53390409/76e94819-a6f5-450c-b1fe-4836f36ff27e)
 
-#Table of Contents
+# Table of Contents
 * [Demo](https://github.com/Haru-hue/password-generator/tree/main#demo)
 * [Features](https://github.com/Haru-hue/password-generator/tree/main#features)
 * [Getting Started](https://github.com/Haru-hue/password-generator/tree/main#getting-started)
 * [Usage](https://github.com/Haru-hue/password-generator/tree/main#usage)
-* [Toggle Between Light and Dark Mode]
+* [Toggle Between Light and Dark Mode](https://github.com/Haru-hue/password-generator/tree/main#toggle-between-light-and-dark-mode)
 * [Contributing](https://github.com/Haru-hue/password-generator/tree/main#contributing)
 * [License](https://github.com/Haru-hue/password-generator/tree/main#license)
 
@@ -32,7 +32,7 @@ To run the Password Generator locally, follow these steps:
 * Click the "Generate Passwords" button to generate a password.
 * Copy the generated password to use it where needed.
 
-### Toggle Between Light and Dark Mode
+## Toggle Between Light and Dark Mode
 The Password Generator supports both light and dark modes to suit your preference. To toggle between modes:
 * Click the "Toggle Mode" button to switch between light and dark modes.
 
