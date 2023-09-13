@@ -4,13 +4,13 @@ A simple password generator web application created with HTML, CSS, and JavaScri
 ![image](https://github.com/Haru-hue/password-generator/assets/53390409/76e94819-a6f5-450c-b1fe-4836f36ff27e)
 
 #Table of Contents
-* [Demo](https://github.com/Haru-hue/password-generator/
-* Features
-* Getting Started
-* Usage
-* Toggle Between Light and Dark Mode
-* Contributing
-* License
+* [Demo](https://github.com/Haru-hue/password-generator/tree/main#demo)
+* [Features](https://github.com/Haru-hue/password-generator/tree/main#features)
+* [Getting Started](https://github.com/Haru-hue/password-generator/tree/main#getting-started)
+* [Usage](https://github.com/Haru-hue/password-generator/tree/main#usage)
+* [Toggle Between Light and Dark Mode]
+* [Contributing](https://github.com/Haru-hue/password-generator/tree/main#contributing)
+* [License](https://github.com/Haru-hue/password-generator/tree/main#license)
 
 ## Demo
 You can try out the Password Generator by visiting the live demo [here](https://haru-hue.github.io/password-generator/).
